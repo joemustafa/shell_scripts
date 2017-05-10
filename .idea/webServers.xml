@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e19c91fa-dd5e-4d33-b911-78c2fcd9d7f8" name="fxhdvm30cslab1" url="http://fxhdvm30cslab1">
+        <fileTransfer host="fxhdvm30cslab1" port="22" rootFolder="/home/jmustafa" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="95ad189f-db97-4695-9823-da190bcce970" name="disk-wiper1" url="http://192.168.121.128">
+        <fileTransfer host="192.168.121.128" port="22" rootFolder="/root" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="de7b859a-027d-458a-934d-7fbe4b182e00" name="fxhdvm31cslab1" url="http://fxhdvm31cslab1">
+        <fileTransfer host="fxhdvm31cslab1" port="22" rootFolder="/home/jmustafa" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
