@@ -187,3 +187,8 @@ for DEV in /sys/block/sd*
 
 exit 1;
 
+
+shred -n 0 -s 40G -fzv /dev/sdk&
+shred -n 0 -s 40G -fzv /dev/sdl&
+shred -n 0 -s 40G -fzv /dev/sdm&
+shred -n 0 -s 40G -fzv /dev/sdn&
