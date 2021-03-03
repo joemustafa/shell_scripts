@@ -3,6 +3,7 @@ import logging
 import sys
 from logging.handlers import TimedRotatingFileHandler
 from logging.handlers import RotatingFileHandler
+# format = logging.Formatter('[%(asctime)s] - [%(name)s] - [%(levelname)8s] - [%(filename)s:%(lineno)s - %(funcName)20s() ] - %(message)s ', datefmt='%m/%d/%Y %I:%M:%S %p')
 FORMATTER = logging.Formatter(
     '%(asctime)s - %(name)s - %(levelname)s - %(message)s ', datefmt='%m/%d/%Y %I:%M:%S %p')
 LOG_FILE = "my_app.log"
